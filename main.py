@@ -43,10 +43,6 @@ def nambah_rumus():
         print("Nama sudah ada. Gunakan edit untuk mengubahnya.")
         return
 
-    if nama in ("exit", "tambah", "hapus", "edit"):
-        print("Nama tersebut digunakan sebagai perintah.")
-        return
-
     ekspresi = input("Masukkan rumus matematika: ").strip()
 
     if not ekspresi:
